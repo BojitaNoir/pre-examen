@@ -8,4 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/user1")
 @CrossOrigin("*")
 public class usuario2 {
+    @GetMapping("")
+    public String getMessage(){
+        return "Hola pe causas!";
+    }
 }

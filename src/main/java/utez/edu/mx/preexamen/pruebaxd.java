@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class pruebaxd {
     @GetMapping("")
     public String getMessage(){
-        return "Hola mundo!";
+        return "QUE PASA CAUSA GAAAAAAAA!";
     }
 }
